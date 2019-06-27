@@ -1,0 +1,51 @@
+<resources>
+        <!-- the two mode / theme share the same theme parent -->
+        <!-- Base application Light theme / Mode day -->
+        <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+            <item name="windowActionBar">false</item>
+            <item name="windowNoTitle">true</item>
+            <item name="colorPrimary">#D32F2F</item>
+            <item name="colorPrimaryDark">#800E0E</item>
+            <item name="colorAccent">#FFA000</item>
+            <item name="background_color">#fcfcfc</item>
+            <item name="card_background">#F1D796</item>
+            <item name="link_background">#130F0F</item>
+            <item name="primary_text_color">#D32F2F</item>
+            <item name="secondary_text_color">#0A0A0A</item>
+
+        </style>
+
+        <!-- Base application Dark theme / Mode night -->
+        <style name="BlueAppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+            <item name="colorPrimary">#01579B</item>
+            <item name="colorPrimaryDark">#1A237E</item>
+            <item name="colorAccent">#880E4F</item>
+            <item name="background_color">#F3EEEE</item>
+            <item name="card_background">#D6D5D5</item>
+            <item name="link_background">#252424</item>
+            <item name="primary_text_color">#1A237E</item>
+            <item name="secondary_text_color">#01579B</item>
+            <item name="windowNoTitle">true</item>
+
+        </style>
+        <style name="AppTheme.NoActionBar">
+            <item name="windowActionBar">false</item>
+            <item name="windowNoTitle">true</item>
+        </style>
+        <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+        <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+        <style name="FullscreenTheme" parent="AppTheme">
+            <item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>
+            <item name="android:windowActionBarOverlay">true</item>
+            <item name="android:windowBackground">@null</item>
+            <item name="metaButtonBarStyle">?android:attr/buttonBarStyle</item>
+            <item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+        </style>
+
+        <style name="FullscreenActionBarStyle" parent="Widget.AppCompat.ActionBar">
+            <item name="android:background">#fff</item>
+        </style>
+
+
+</resources>
